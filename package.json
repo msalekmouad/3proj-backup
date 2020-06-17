@@ -1,0 +1,28 @@
+{
+  "name": "securoserv-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.1.2",
+    "@azure/storage-file-share": "^12.1.2",
+    "bluebird": "^3.7.2",
+    "chalk": "^4.1.0",
+    "file-size": "^1.0.0",
+    "into-stream": "^5.1.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.19",
+    "mysql2": "^2.1.0",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "mysql-import": "^4.0.24"
+  }
+}
